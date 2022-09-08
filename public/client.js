@@ -10,8 +10,9 @@ do {
 
 textarea.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
-    if(e.target.value!=''){
-    sendMessage(e.target.value);}
+    if(e.target.value!==''){
+    sendMessage(e.target.value);
+  }
   }
 });
 
